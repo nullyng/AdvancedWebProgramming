@@ -242,12 +242,13 @@ footer .footer-text {
 }
 
 /****************** Gallery ******************/
-.row {
-    margin-top: 80px;
-    width: 100%;
+.photos {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .post {
+    text-align: center;
     display: inline-block;
     width: 300px;
     height: 400px;
