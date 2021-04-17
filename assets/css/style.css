@@ -208,6 +208,11 @@ img {
     color: #f4671f;
     transition: 0.5s;
 }
+
+/****************** Portpolio ******************/
+#portpolio .container {
+    width: 80%;
+}
 /****************** font ******************/
 @font-face {
     font-family: 'GongGothicBold';
