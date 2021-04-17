@@ -176,7 +176,7 @@ footer .footer-text {
 }
 
 /****************** introduction.html ******************/
-#introduction img {
+.introduce-myself img {
     height: 300px;
     width: 300px;
     margin-bottom: 30px;
