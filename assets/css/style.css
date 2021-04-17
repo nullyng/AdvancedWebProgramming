@@ -19,6 +19,11 @@ h3 {
     font-size: 20px;
 }
 
+h4 {
+    font-family: 'IBMPlexSansKRExtraLight';
+    font-size: 13px;
+}
+
 a {
     text-decoration: none;
 }
@@ -240,13 +245,24 @@ footer .footer-text {
     width: 40%;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 3%;
+    height: 400px;
+    width: 300px;
     margin:0 auto;
 }
 
-.post img {
-    height: 400px;
-    width: 300px;
-    border-radius: 3%;
+.post .img1 {
+    background: url('assets/images/gallery/210129_1.jpg');
+}
+
+.title {
+    opacity: 0;
+}
+
+.post img .title:hover {
+    opacity: 0.5;
+    text-align: center;
+    color: white;
 }
 
 /****************** font ******************/
