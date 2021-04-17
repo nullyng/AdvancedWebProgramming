@@ -74,6 +74,7 @@ section {
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
     transition: all 0.5s ease-in-out 0s;
 }
+
 /****************** header ******************/
 header {
     width: 100%;
@@ -118,6 +119,7 @@ header .list a:hover {
     color: #f4671f;
     transition: 0.5s;
 }
+
 /****************** footer ******************/
 footer {
     background-color: rgb(66, 66, 66);
@@ -174,21 +176,19 @@ footer .footer-text {
 }
 
 /****************** introduction.html ******************/
-img {
+#introduction img {
     height: 300px;
     width: 300px;
     margin-bottom: 30px;
 }
 
 .view-more {
-    color: black;
-    text-align: center;
+    vertical-align: middle;
 }
 
 .view-more img{
     height: 20px;
     width: 20px;
-    margin: 0 auto;
     margin-right: 20px;
   }
 
@@ -210,9 +210,34 @@ img {
 }
 
 /****************** Portpolio ******************/
-#portpolio .container {
-    width: 80%;
+#portpolio .list {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'IBMPlexSansKRRegular';
 }
+
+#portpolio .list p {
+    font-size: 13px;
+}
+
+#portpolio .container {
+    width: 60%;
+    align-items: center;
+}
+
+#portpolio .view-more a {
+    font-size: 15px;
+    font-family: 'IBMPlexSansKRRegular';
+}
+
+.bx-wrapper img {
+    height: auto;
+}
+
+/****************** Gallery ******************/
+
+
 /****************** font ******************/
 @font-face {
     font-family: 'GongGothicBold';
