@@ -33,3 +33,8 @@ $(document).ready(function(){
         adaptiveHeight: true,
     });
 });
+
+function printMain() {
+    var name = document.getElementById("name").value;
+    document.getElementById("main").innerHTML = '<div class="welcome"><div><h2>Welcome, ' + name + '!</h2><p class="regular">Advanced Web Programming<br />2018113910 Juyoung Kim</p></div><img src="assets/images/hello.png" /></div><a href="introduction.html" class="introduce">Let me introduce myself</a>';
+}

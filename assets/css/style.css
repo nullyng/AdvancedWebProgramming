@@ -80,6 +80,26 @@ section {
     transition: all 0.5s ease-in-out 0s;
 }
 
+label {
+    text-align: center;
+    font-family: 'GongGothicLight';
+    font-size: 17px;
+    color: #f4671f;
+}
+
+button {
+    text-align: center;
+    font-family: 'GongGothicLight';
+    font-size: 15px;
+}
+
+input {
+    height: 20px;
+    text-align: center;
+    font-family: 'IBMPlexSansKRRegular';
+    font-size: 13px;
+}
+
 /****************** header ******************/
 header {
     width: 100%;
@@ -147,6 +167,10 @@ footer .footer-text {
 }
 
 /****************** index.html ******************/
+#main .input-name {
+    margin-top: 100px;
+}
+
 #main .welcome {
     margin-top: 100px;
     margin-bottom: 20px;
@@ -253,12 +277,10 @@ footer .footer-text {
     width: 300px;
     height: 400px;
     position: relative;
-    cursor: pointer;
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    overflow: hidden;
-    box-shadow: 2px 2px 8px 0px black;
+    box-shadow: 1px 1px 10px 0px black;
 }
 
 .post img {
@@ -288,6 +310,36 @@ footer .footer-text {
 .post .title:hover {
     color: #f4671f;
     transition: 0.5s;
+}
+
+/****************** Contact ******************/
+#contact .contact-form {
+    margin-top: 80px;
+}
+
+#contact td {
+    padding: 10px;
+    color: #f4671f;
+    font-family: 'GongGothicLight';
+}
+
+#contact td.title {
+    padding: 10px;
+    color: black;
+    font-family: 'IBMPlexSansKRRegular';
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'IBMPlexSansKRRegular';
+}
+
+#contact input.submit {
+    width: 50px;
+    font-family: 'GongGothicLight';
+    font-size: 15px;
 }
 
 /****************** font ******************/
