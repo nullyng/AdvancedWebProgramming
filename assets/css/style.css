@@ -239,24 +239,24 @@ footer .footer-text {
     transition: 0.5s;
 }
 
-/****************** Portpolio ******************/
-#portpolio .list {
+/****************** portfolio ******************/
+#portfolio .list {
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: 'IBMPlexSansKRRegular';
 }
 
-#portpolio .list p {
+#portfolio .list p {
     font-size: 13px;
 }
 
-#portpolio .container {
+#portfolio .container {
     width: 60%;
     align-items: center;
 }
 
-#portpolio .view-more a {
+#portfolio .view-more a {
     font-size: 15px;
     font-family: 'IBMPlexSansKRRegular';
 }
